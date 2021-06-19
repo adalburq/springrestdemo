@@ -17,8 +17,12 @@ import com.howtodoinjava.rest.model.Employee;
 import com.howtodoinjava.rest.model.Employees;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // teste Github - 
+=======
+// teste Github -  
+>>>>>>> 353a39c2b84d88c3e99a7f018067974ecd7e4c1b
 
 >>>>>>> 7ae3d7eab4036859841df47b2aa23df147ae3101
 // fist application : https://howtodoinjava.com/spring-boot/spring-boot-tutorial-with-hello-world-example/
