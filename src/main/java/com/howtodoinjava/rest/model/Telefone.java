@@ -8,6 +8,15 @@ public class Telefone {
 	private String ddd;
 	// numero
 	private String numero;
+	
+	public Telefone(Integer id, String ddd, String numero) {
+		this.id = id;
+		this.ddd = ddd;
+		this.numero = numero;
+	}
+	public Telefone() {
+		// TODO Auto-generated constructor stub
+	}
 	public Integer getId() {
 		return id;
 	}
