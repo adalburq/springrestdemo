@@ -29,8 +29,9 @@ import com.howtodoinjava.rest.model.Employees;
 	// Rest Controller simplesmente preenche e retorna o próprio objeto de domínio
 	// Os dados do objeto são gravados diretamente na resposta HTTP como JSON ou XML para cliente processá-los
 
+
 // EXECUTAR A APLICAÇÃO - POSTMAN ou CHROME Advanced REST Client
-//	GET  --> http://localhost:8080/employees/
+//	GET  --> http://localhost:8080/employees/    <====== executar este link no browser
 //	POST --> http://localhost:8080/employees/ 
 //			 > header : Content-Type application/json
 //			 > adicionar na body (RAW) (JSON) : {"firstName": "Xxxx", "lastName": "Yyyyy", "email": "zzzz@gmail.com" }

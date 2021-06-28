@@ -1,11 +1,19 @@
 package com.howtodoinjava.rest.model;
 
 public class Employee {
+ 
+    // Atributos de classe
+    private Integer id;
+    private String firstName;
+    private String lastName;
+    private String email;
 
+    // METODOS CONSTRUTOR 1
     public Employee() {
 
     }
 
+    // METODOS CONSTRUTOR 2
     public Employee(Integer id, String firstName, String lastName, String email) {
         super();
         this.id = id;
@@ -13,12 +21,9 @@ public class Employee {
         this.lastName = lastName;
         this.email = email;
     }
- 
-    private Integer id;
-    private String firstName;
-    private String lastName;
-    private String email;
-
+    
+    
+    // METODOS ACESSORES GET e SET
     public Integer getId() {
         return id;
     }
