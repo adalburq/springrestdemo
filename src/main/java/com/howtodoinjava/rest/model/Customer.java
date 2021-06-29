@@ -32,6 +32,16 @@ public class Customer {
         this.email = email;
         this.telefone = telefone;
     }
+    
+    public Customer(Integer id, String name, String cnpj, String cpf, String email) {//, Telefone telefone
+        super();
+        this.id = id;
+        this.name = name;
+        this.cnpj = cnpj;
+        this.cpf = cpf;
+        this.email = email;
+        //this.telefone = telefone;
+    }
 
 	public Integer getId() {
 		return id;

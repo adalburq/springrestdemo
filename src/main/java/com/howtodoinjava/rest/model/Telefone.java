@@ -6,9 +6,14 @@ public class Telefone {
 	private Integer id;
 	//	  ddd 
 	private String ddd;
-
 	//	  numero
 	private String numero;
+	
+	public Telefone(Integer id, String ddd, String numero) {
+		this.id = id;
+		this.ddd = ddd;
+		this.numero = numero;
+	}
 
 	public Integer getId() {
 		return id;
@@ -36,4 +41,3 @@ public class Telefone {
 
 	// exemplo : private Telefone telefone;
 }
-
