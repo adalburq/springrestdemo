@@ -1,40 +1,44 @@
 package com.howtodoinjava.rest.model;
 
 public class Customer {
-	//atributos da classe
+
+	// atributos da classe
+
 	private Integer id;
+	// name
 	private String name;
-	private String CNPJ;
-	private String CPF;
+	// cnpj
+	private String cnpj;
+	// cpf
+	private String cpf;
+	// email
 	private String email;
+	// telefone
 	private Telefone telefone;
- 
-	//método construtor default - implícito
+
+	// métodos
+
+	// método construtor default - implícito
 	public Customer() {
 
 	}
-	
-	//método construtor personalizado - explícito
-	public Customer(Integer id, String name, String CNPJ, String CPF, String email, Telefone telefone) {
+
+	// método construtor personalizado - explícito
+	public Customer(Integer id, String name, String cnpj, String cpf, String email, Telefone telefone) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.CNPJ = CNPJ;
-		this.CPF = CPF;
+		this.cnpj = cnpj;
+		this.cpf = cpf;
 		this.email = email;
 		this.telefone = telefone;
-
 	}
-	// Gerar GET e SET
-	// alt + shift + s
-	// shift + r
-	
-	//métodos acessores Get Set
+
 	public Integer getId() {
 		return id;
 	}
 
-	public void Setid(Integer id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -46,20 +50,21 @@ public class Customer {
 		this.name = name;
 	}
 
-	public String getCNPJ() {
-		return CNPJ;
+	public String getCnpj() {
+		return cnpj;
 	}
 
-	public void setCNPJ(String cNPJ) {
-		CNPJ = cNPJ;
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
 	}
 
-	public String getCPF() {
-		return CPF;
+	public String getCpf() {
+		return cpf;
 	}
 
-	public void setCPF(String cPF) {
-		CPF = cPF;
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+
 	}
 
 	public String getEmail() {
@@ -78,8 +83,7 @@ public class Customer {
 		this.telefone = telefone;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+	// Métodos assessores GET E SET
+	// Customer c1 = new Customer();
 
 }
