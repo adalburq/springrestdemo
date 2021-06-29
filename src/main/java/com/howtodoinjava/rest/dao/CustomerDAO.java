@@ -10,7 +10,6 @@ import com.howtodoinjava.rest.model.Telefone;
 public class CustomerDAO {
     private static Customers list = new Customers();
 
-    public static Telefone t12 = new Telefone(1, "21", "976665879");
     public static Telefone t1 = new Telefone(1, "21", "976665879");
     public static Telefone t2 = new Telefone(2, "21", "978658897");
     public static Telefone t3 = new Telefone(3, "23", "987451614");
