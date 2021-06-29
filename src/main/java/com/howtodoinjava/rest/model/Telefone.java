@@ -2,6 +2,16 @@ package com.howtodoinjava.rest.model;
 
 public class Telefone {
 
+	public Telefone() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Telefone(Integer id, String ddd, String numero) {
+		this.id = id;
+		this.ddd = ddd;
+		this.numero = numero;
+	}
+	
 	// chave primária da tabela do banco de dados
 	private Integer id;
 	// ddd
