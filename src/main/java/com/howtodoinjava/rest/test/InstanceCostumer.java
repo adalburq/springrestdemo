@@ -7,6 +7,7 @@ public class InstanceCostumer {
 
 	public static void main(String[] args) {
 		Customer customer = new Customer();
+		System.out.println(customer.getId());
 		customer.setId(1);
 		customer.setName("Maria");
 		
@@ -19,7 +20,11 @@ public class InstanceCostumer {
 		telefone.setDdd("21");
 		telefone.setNumero("21968337632");
 		
+		System.out.println(customer.getTelefone());
 		customer.setTelefone(telefone);
+		System.out.println(customer.getTelefone());
+	    System.out.println(customer.getTelefone().getDdd());
+
 	}
 
 }
